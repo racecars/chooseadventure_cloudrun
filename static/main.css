@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2)
+      format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ColfaxAI";
+
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+
+
+  font-weight: bold;
+  font-style: normal;
+}
+body,
+input {
+  font-size: 20px;
+  line-height: 24px;
+  color: #353740;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.icon {
+  width: 34px;
+}
+
+body {
+  background-color: #fff;
+  background-image: url("https://i.ibb.co/gtRxhTR/clouds.jpg");
+  padding: 2em;
+  font-family: tahoma;
+  font-size: 14px;
+}
+h3 {
+  font-size: 60px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #202123;
+  margin: 16px 0 40px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  width: 500px;
+
+}
+input[type="text"] {
+  padding: 12px 16px;
+  border: 1px solid #10a37f;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 40px;
+
+}
+::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}
+input[type="submit"] {
+  padding: 12px 0;
+  color: #fff;
+  background-color: #FF4D27;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+   font-size: 40px;
+}
+.result {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 1.5;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
